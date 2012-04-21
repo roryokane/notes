@@ -38,3 +38,5 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'haml-rails'
+
+gem 'bootstrap-sass', '~> 2.0.2'
