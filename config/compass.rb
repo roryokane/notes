@@ -1,5 +1,4 @@
 # This configuration file works with both the Compass command line tool and within Rails.
-require 'compass/h5bp'
 
 # Require any additional compass plugins here.
 
@@ -20,6 +19,6 @@ http_path = "/"
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
+preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass app/stylesheets scss && rm -rf sass && mv scss sass
