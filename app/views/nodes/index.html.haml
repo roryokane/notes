@@ -1,0 +1,19 @@
+%h1 Listing nodes
+
+%table
+  %tr
+    %th Content
+    %th
+    %th
+    %th
+
+  - @nodes.each do |node|
+    %tr
+      %td= node.content
+      %td= link_to 'Show', node
+      %td= link_to 'Edit', edit_node_path(node)
+      %td= link_to 'Destroy', node, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Node', new_node_path

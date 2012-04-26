@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Content:
+  = @node.content
+
+= link_to 'Edit', edit_node_path(@node)
+\|
+= link_to 'Back', nodes_path
